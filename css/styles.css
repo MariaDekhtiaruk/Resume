@@ -254,3 +254,18 @@ body {
   line-height: 24px;
   color: #ffffff;
 }
+/* second  page*/
+.main-second {
+  display: block;
+  width: 1200px;
+  margin: auto;
+}
+.cover-letter {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 1000px;
+  text-align: justify;
+}
