@@ -102,6 +102,12 @@ body {
 .proect-link {
   margin-left: 10px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.proect-link:hover,
+.proect-link:focus {
+  color: #c0c4ca;
 }
 .project-bracket {
   font-weight: 700;
@@ -236,10 +242,6 @@ body {
 .contact__icon {
   fill: #ffffff;
 }
-.contact_link:hover,
-.contact_link:focus {
-  color: #ffffff;
-}
 
 .contact_link {
   font-weight: 400;
@@ -248,6 +250,10 @@ body {
   color: #565e6a;
   text-decoration: none;
   text-align: center;
+}
+.contact_link:hover,
+.contact_link:focus {
+  color: #ffffff;
 }
 .Tech-skills-list,
 .Soft-skills-list,
