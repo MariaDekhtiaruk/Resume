@@ -16,6 +16,7 @@ ul {
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
+  margin: 0px;
 }
 
 /* https://fonts.google.com/ */
@@ -24,17 +25,17 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1000px;
-  margin: 0 auto;
+  justify-content: center;
 }
 /* main content style */
 .main_content {
   background-color: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 40px 40px;
+  padding: 30px 40px 27px 40px;
 }
 /* about style */
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .about-position {
   font-style: normal;
@@ -73,15 +74,7 @@ body {
 
 /* project styles */
 .projects {
-  margin-bottom: 50px;
-  /* background: chocolate;
-    margin-top:100px ;
-    margin-bottom:300px ;
-    margin-left:60px ;
-    margin-right:90px ; */
-  /* margin: 100px 90px 300px 60px;
-    margin: 50px;
-    margin: 100px 50px; */
+  margin-bottom: 30px;
 }
 
 .project-item {
@@ -92,23 +85,28 @@ body {
   color: #000000;
 }
 .project,
-.proect-link {
+.proect-link,
+.git-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
 }
-.proect-link {
+.proect-link,
+.git-link {
   margin-left: 10px;
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
 }
 
 .proect-link:hover,
-.proect-link:focus {
+.proect-link:focus,
+.git-link:hover,
+.git-link:focus {
   color: #c0c4ca;
 }
+
 .project-bracket {
   font-weight: 700;
   font-size: 14px;
@@ -127,17 +125,6 @@ body {
   margin-left: 15px;
 }
 /* work styles */
-.work {
-  /* background: cyan;
-    padding-top: 100px;
-    padding-bottom: 50px ;
-    padding-left: 20px;
-    padding-right: 40px ; */
-  /* padding: 100px 40px 50 px 20px;
-    padding: 50px;
-    padding: 100px 50px; */
-}
-/* edication styles */
 
 .work-position {
   font-weight: 700;
@@ -179,10 +166,18 @@ body {
   line-height: 24px;
   color: #595959;
 }
+.achievement {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
 .edication {
   padding: 0px;
-  margin-top: 43px;
-  margin-bottom: 10px;
+  margin-top: 30px;
 }
 .edication-univercity {
   font-weight: 700;
