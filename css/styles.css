@@ -17,6 +17,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
   margin: 0px;
+  height: 1411px;
 }
 
 /* https://fonts.google.com/ */
@@ -25,6 +26,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1000px;
+  height: 1411px;
   justify-content: center;
 }
 /* main content style */
@@ -197,6 +199,7 @@ body {
   background-color: #1e2939;
   padding-top: 40px;
   width: 370px;
+  height: 1371px;
 }
 .photo {
   width: 200px;
